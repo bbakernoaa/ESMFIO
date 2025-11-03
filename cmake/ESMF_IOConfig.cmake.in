@@ -1,0 +1,42 @@
+# ESMF_IOConfig.cmake.in - Package configuration for ESMF_IO
+# This file is used to generate the ESMF_IOConfig.cmake file during installation
+
+@PACKAGE_INIT@
+
+# Set the minimum required CMake version
+cmake_minimum_required(VERSION 3.20)
+
+# Compute paths relative to the package root
+get_filename_component(ESMF_IO_CMAKE_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
+
+# Add the library directory to CMAKE_PREFIX_PATH to find dependencies
+list(APPEND CMAKE_PREFIX_PATH "${ESMF_IO_CMAKE_DIR}/../..")
+
+# Find required dependencies
+find_dependency(MPI REQUIRED)
+find_dependency(Threads REQUIRED)
+
+if(@ENABLE_NETCDF@)
+  find_dependency(NetCDF REQUIRED)
+endif()
+
+if(@PnetCDF_FOUND@)
+  find_dependency(PnetCDF REQUIRED)
+endif()
+
+find_dependency(ESMF REQUIRED)
+
+# Import the targets
+if(NOT TARGET ESMF_IO::esmf_io)
+ include("${ESMF_IO_CMAKE_DIR}/ESMF_IOTargets.cmake")
+endif()
+
+# Set compatibility variables for legacy usage
+set(ESMF_IO_FOUND TRUE)
+set(ESMF_IO_VERSION @PROJECT_VERSION@)
+
+# Set legacy variables if needed
+set(ESMF_IO_LIBRARIES ESMF_IO::esmf_io)
+set(ESMF_IO_INCLUDE_DIRS ${ESMF_IO_CMAKE_DIR}/../../@CMAKE_INSTALL_INCLUDEDIR@)
+
+check_required_components(ESMF_IO)

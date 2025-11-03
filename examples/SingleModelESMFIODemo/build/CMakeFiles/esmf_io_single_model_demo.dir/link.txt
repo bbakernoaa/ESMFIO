@@ -1,0 +1,1 @@
+/opt/homebrew/bin/gfortran -O3 CMakeFiles/esmf_io_single_model_demo.dir/Driver.F90.o -o esmf_io_single_model_demo  -lesmf_io -lMPI::MPI_Fortran

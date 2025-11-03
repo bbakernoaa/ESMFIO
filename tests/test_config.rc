@@ -1,0 +1,46 @@
+# Test configuration for ESMF_IO NUOPC component
+# This configuration specifies input and output file paths for testing
+
+&stream_data_table
+  stream = 'input_data'
+    filename_template = 'tests/data/input_test.nc'
+    field_names = 'air_temperature', 'eastward_wind', 'northward_wind'
+    time_dim_name = 'time'
+    time_calendar = 'standard'
+    time_units = 'hours since 2000-01-01 00:00:00'
+    offset = 0
+  /
+
+&stream_data_table
+  stream = 'output_data'
+    filename_template = 'tests/data/output_test.nc'
+    field_names = 'air_temperature', 'eastward_wind', 'northward_wind'
+    time_dim_name = 'time'
+    time_calendar = 'standard'
+    time_units = 'hours since 200-01-01 00:00:00'
+    write_freq = 1
+  /
+
+&grid_config
+  grid_dim_x = 20
+  grid_dim_y = 20
+  min_corner_x = -180.0
+  min_corner_y = -90.0
+  max_corner_x = 180.0
+  max_corner_y = 90.0
+  stagger_location = 'center'
+/
+
+&component_config
+  component_name = 'ESMF_IO_Test'
+  scaling_factor = 2.0
+  enable_input = .true.
+  enable_output = .true.
+  debug_level = 2
+/
+
+&run_config
+  start_time = '2000-01-01 00:00:00'
+  stop_time = '2000-01-01 06:00:00'
+  time_step = '01:00:00'  # 1 hour
+/

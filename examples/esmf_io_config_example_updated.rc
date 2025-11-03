@@ -1,0 +1,137 @@
+!> Updated example configuration file for ESMF_IO unified component
+!!
+!! This configuration demonstrates both input (ExtData equivalent) and 
+!! output (History equivalent) functionality in a single file using
+!! the new configurable parameters system.
+
+! Global settings
+::IO_Settings
+  DEBUG_LEVEL: 1
+  IO_MODE: PARALLEL
+::END
+
+! Input stream configuration (ExtData equivalent)
+::InputStream: METEOROLOGY_DATA
+  NAME: meteorology
+  DATAFILE: /path/to/meteorology_data_%y4%m2%d2.nc
+  FILETYPE: netcdf
+  MODE: read
+  START_TIME: 2020-01-01_00:00:00
+  END_TIME: 2020-12-31_23:59:59
+  TIME_FREQUENCY: PT1H
+  TIME_OFFSET: PT0H
+  CALENDAR: GREGORIAN
+  CLIMATOLOGY: false
+  REGRID_METHOD: 1
+  REGRID_FILE: /path/to/regrid_weights.nc
+  FIELD_COUNT: 3
+  FIELD_1_NAME: temperature
+  FIELD_1_UNITS: K
+  FIELD_1_LONGNAME: Air Temperature
+  FIELD_1_LEVELS: 1
+  FIELD_1_TIME_AVG: false
+  FIELD_2_NAME: humidity
+  FIELD_2_UNITS: percent
+  FIELD_2_LONGNAME: Relative Humidity
+  FIELD_2_LEVELS: 1
+  FIELD_2_TIME_AVG: false
+  FIELD_3_NAME: pressure
+  FIELD_3_UNITS: Pa
+  FIELD_3_LONGNAME: Surface Pressure
+  FIELD_3_LEVELS: 1
+  FIELD_3_TIME_AVG: false
+::END
+
+::InputStream: EMISSIONS_DATA
+  NAME: emissions
+  DATAFILE: /path/to/emissions_%y4.nc
+  FILETYPE: netcdf
+  MODE: read
+  START_TIME: 2020-01-01_00:00:00
+  END_TIME: 2020-12-31_23:59:59
+  TIME_FREQUENCY: P1D
+  TIME_OFFSET: PT0H
+  CALENDAR: GREGORIAN
+  CLIMATOLOGY: true
+  REGRID_METHOD: 2
+  REGRID_FILE: /path/to/emissions_regrid_weights.nc
+  FIELD_COUNT: 2
+  FIELD_1_NAME: co2_flux
+  FIELD_1_UNITS: kg/m2/s
+  FIELD_1_LONGNAME: CO2 Surface Flux
+  FIELD_1_LEVELS: 1
+  FIELD_1_TIME_AVG: false
+  FIELD_2_NAME: nox_flux
+  FIELD_2_UNITS: kg/m2/s
+  FIELD_2_LONGNAME: NOx Surface Flux
+  FIELD_2_LEVELS: 1
+  FIELD_2_TIME_AVG: false
+::END
+
+! Output collection configuration (History equivalent)
+::OutputCollection: HOURLY_OUTPUT
+  NAME: hourly_data
+  FILENAME_BASE: hourly_output
+  FILETYPE: netcdf
+  OUTPUT_FREQUENCY: PT1H
+  TIME_AXIS_OFFSET: PT30M
+  APPEND_PACKED_FILES: false
+  DO_AVG: false
+  DO_MAX: false
+  DO_MIN: false
+  FIELD_COUNT: 4
+  FIELD_1_NAME: temperature
+  FIELD_1_UNITS: K
+  FIELD_1_LONGNAME: Air Temperature
+  FIELD_1_LEVELS: 1
+  FIELD_2_NAME: humidity
+  FIELD_2_UNITS: percent
+  FIELD_2_LONGNAME: Relative Humidity
+  FIELD_2_LEVELS: 1
+  FIELD_3_NAME: wind_u
+  FIELD_3_UNITS: m/s
+  FIELD_3_LONGNAME: Eastward Wind
+  FIELD_3_LEVELS: 1
+  FIELD_4_NAME: wind_v
+  FIELD_4_UNITS: m/s
+  FIELD_4_LONGNAME: Northward Wind
+  FIELD_4_LEVELS: 1
+::END
+
+::OutputCollection: AVERAGED_OUTPUT
+  NAME: averaged_data
+  FILENAME_BASE: averaged_output
+  FILETYPE: netcdf
+  OUTPUT_FREQUENCY: PT6H
+  TIME_AXIS_OFFSET: PT0H
+  APPEND_PACKED_FILES: false
+  DO_AVG: true
+  DO_MAX: true
+  DO_MIN: true
+  FIELD_COUNT: 2
+  FIELD_1_NAME: precipitation
+  FIELD_1_UNITS: mm/hr
+  FIELD_1_LONGNAME: Precipitation Rate
+  FIELD_1_LEVELS: 1
+  FIELD_2_NAME: cloud_cover
+  FIELD_2_UNITS: percent
+  FIELD_2_LONGNAME: Cloud Cover
+  FIELD_2_LEVELS: 1
+::END
+
+::OutputCollection: DAILY_MAX_OUTPUT
+  NAME: daily_max_data
+  FILENAME_BASE: daily_max_output
+  FILETYPE: netcdf
+  OUTPUT_FREQUENCY: P1D
+  TIME_AXIS_OFFSET: PT0H
+  APPEND_PACKED_FILES: false
+  DO_AVG: false
+  DO_MAX: true
+  DO_MIN: false
+  FIELD_COUNT: 1
+  FIELD_1_NAME: temperature_max
+  FIELD_1_UNITS: K
+  FIELD_1_LONGNAME: Maximum Air Temperature
+  FIELD_1_LEVELS: 1
+::END

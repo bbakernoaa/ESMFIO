@@ -1,0 +1,2197 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/opt/homebrew/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/barry/spack/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/"
+      - "/Users/barry/.rbenv/shims/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/uname"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/uname"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/opt/homebrew/sbin/uname"
+      - "/opt/homebrew/uname"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/Users/barry/spack/bin/uname"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/uname"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/uname"
+      - "/Users/barry/.rbenv/shims/uname"
+      - "/opt/homebrew/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view"
+        - "/opt/homebrew"
+      ENV{PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/barry/spack/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/condabin"
+        - "/Users/barry/.rbenv/shims"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin"
+        - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/install"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The system is: Darwin - 25.0.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/opt/homebrew/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/barry/spack/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/"
+      - "/Users/barry/.rbenv/shims/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/gmake"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/gmake"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/gmake"
+      - "/opt/homebrew/bin/gmake"
+      - "/opt/homebrew/sbin/gmake"
+      - "/opt/homebrew/gmake"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/gmake"
+      - "/opt/homebrew/bin/gmake"
+      - "/Users/barry/spack/bin/gmake"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/gmake"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/gmake"
+      - "/Users/barry/.rbenv/shims/gmake"
+      - "/opt/homebrew/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/System/Cryptexes/App/usr/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/sbin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/gmake"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/gmake"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/gmake"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/make"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/make"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/make"
+      - "/opt/homebrew/bin/make"
+      - "/opt/homebrew/sbin/make"
+      - "/opt/homebrew/make"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/make"
+      - "/opt/homebrew/bin/make"
+      - "/Users/barry/spack/bin/make"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/make"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/make"
+      - "/Users/barry/.rbenv/shims/make"
+      - "/opt/homebrew/sbin/make"
+      - "/usr/local/bin/make"
+      - "/System/Cryptexes/App/usr/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view"
+        - "/opt/homebrew"
+      ENV{PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/barry/spack/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/condabin"
+        - "/Users/barry/.rbenv/shims"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin"
+        - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:89 (_cmake_find_compiler)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_Fortran_COMPILER"
+    description: "Fortran compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "f95"
+      - "ftn"
+      - "ifx"
+      - "ifort"
+      - "nvfortran"
+      - "pgfortran"
+      - "lf95"
+      - "xlf"
+      - "fort"
+      - "flang"
+      - "lfortran"
+      - "frt"
+      - "nagfor"
+      - "gfortran"
+    candidate_directories:
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/opt/homebrew/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/barry/spack/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/"
+      - "/Users/barry/.rbenv/shims/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/f95"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/f95"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/f95"
+      - "/opt/homebrew/bin/f95"
+      - "/opt/homebrew/sbin/f95"
+      - "/opt/homebrew/f95"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/f95"
+      - "/opt/homebrew/bin/f95"
+      - "/Users/barry/spack/bin/f95"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/f95"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/f95"
+      - "/Users/barry/.rbenv/shims/f95"
+      - "/opt/homebrew/sbin/f95"
+      - "/usr/local/bin/f95"
+      - "/System/Cryptexes/App/usr/bin/f95"
+      - "/usr/bin/f95"
+      - "/bin/f95"
+      - "/usr/sbin/f95"
+      - "/sbin/f95"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/f95"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/f95"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/f95"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/f95"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/f95"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/f95"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/f95"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/ftn"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/ftn"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/ftn"
+      - "/opt/homebrew/bin/ftn"
+      - "/opt/homebrew/sbin/ftn"
+      - "/opt/homebrew/ftn"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/ftn"
+      - "/opt/homebrew/bin/ftn"
+      - "/Users/barry/spack/bin/ftn"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/ftn"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/ftn"
+      - "/Users/barry/.rbenv/shims/ftn"
+      - "/opt/homebrew/sbin/ftn"
+      - "/usr/local/bin/ftn"
+      - "/System/Cryptexes/App/usr/bin/ftn"
+      - "/usr/bin/ftn"
+      - "/bin/ftn"
+      - "/usr/sbin/ftn"
+      - "/sbin/ftn"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/ftn"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/ftn"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/ftn"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/ftn"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/ftn"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/ftn"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/ftn"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/ifx"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/ifx"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/ifx"
+      - "/opt/homebrew/bin/ifx"
+      - "/opt/homebrew/sbin/ifx"
+      - "/opt/homebrew/ifx"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/ifx"
+      - "/opt/homebrew/bin/ifx"
+      - "/Users/barry/spack/bin/ifx"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/ifx"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/ifx"
+      - "/Users/barry/.rbenv/shims/ifx"
+      - "/opt/homebrew/sbin/ifx"
+      - "/usr/local/bin/ifx"
+      - "/System/Cryptexes/App/usr/bin/ifx"
+      - "/usr/bin/ifx"
+      - "/bin/ifx"
+      - "/usr/sbin/ifx"
+      - "/sbin/ifx"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/ifx"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/ifx"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/ifx"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/ifx"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/ifx"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/ifx"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/ifx"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/ifort"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/ifort"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/ifort"
+      - "/opt/homebrew/bin/ifort"
+      - "/opt/homebrew/sbin/ifort"
+      - "/opt/homebrew/ifort"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/ifort"
+      - "/opt/homebrew/bin/ifort"
+      - "/Users/barry/spack/bin/ifort"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/ifort"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/ifort"
+      - "/Users/barry/.rbenv/shims/ifort"
+      - "/opt/homebrew/sbin/ifort"
+      - "/usr/local/bin/ifort"
+      - "/System/Cryptexes/App/usr/bin/ifort"
+      - "/usr/bin/ifort"
+      - "/bin/ifort"
+      - "/usr/sbin/ifort"
+      - "/sbin/ifort"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/ifort"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/ifort"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/ifort"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/ifort"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/ifort"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/ifort"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/ifort"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/nvfortran"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/nvfortran"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/nvfortran"
+      - "/opt/homebrew/bin/nvfortran"
+      - "/opt/homebrew/sbin/nvfortran"
+      - "/opt/homebrew/nvfortran"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/nvfortran"
+      - "/opt/homebrew/bin/nvfortran"
+      - "/Users/barry/spack/bin/nvfortran"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/nvfortran"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/nvfortran"
+      - "/Users/barry/.rbenv/shims/nvfortran"
+      - "/opt/homebrew/sbin/nvfortran"
+      - "/usr/local/bin/nvfortran"
+      - "/System/Cryptexes/App/usr/bin/nvfortran"
+      - "/usr/bin/nvfortran"
+      - "/bin/nvfortran"
+      - "/usr/sbin/nvfortran"
+      - "/sbin/nvfortran"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/nvfortran"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/nvfortran"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/nvfortran"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/nvfortran"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/nvfortran"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/nvfortran"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/nvfortran"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/pgfortran"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/pgfortran"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/pgfortran"
+      - "/opt/homebrew/bin/pgfortran"
+      - "/opt/homebrew/sbin/pgfortran"
+      - "/opt/homebrew/pgfortran"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/pgfortran"
+      - "/opt/homebrew/bin/pgfortran"
+      - "/Users/barry/spack/bin/pgfortran"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/pgfortran"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/pgfortran"
+      - "/Users/barry/.rbenv/shims/pgfortran"
+      - "/opt/homebrew/sbin/pgfortran"
+      - "/usr/local/bin/pgfortran"
+      - "/System/Cryptexes/App/usr/bin/pgfortran"
+      - "/usr/bin/pgfortran"
+      - "/bin/pgfortran"
+      - "/usr/sbin/pgfortran"
+      - "/sbin/pgfortran"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/pgfortran"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/pgfortran"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/pgfortran"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/pgfortran"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/pgfortran"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/pgfortran"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/pgfortran"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/lf95"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/lf95"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/lf95"
+      - "/opt/homebrew/bin/lf95"
+      - "/opt/homebrew/sbin/lf95"
+      - "/opt/homebrew/lf95"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/lf95"
+      - "/opt/homebrew/bin/lf95"
+      - "/Users/barry/spack/bin/lf95"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/lf95"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/lf95"
+      - "/Users/barry/.rbenv/shims/lf95"
+      - "/opt/homebrew/sbin/lf95"
+      - "/usr/local/bin/lf95"
+      - "/System/Cryptexes/App/usr/bin/lf95"
+      - "/usr/bin/lf95"
+      - "/bin/lf95"
+      - "/usr/sbin/lf95"
+      - "/sbin/lf95"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/lf95"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/lf95"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/lf95"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/lf95"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/lf95"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/lf95"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/lf95"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/xlf"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/xlf"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/xlf"
+      - "/opt/homebrew/bin/xlf"
+      - "/opt/homebrew/sbin/xlf"
+      - "/opt/homebrew/xlf"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/xlf"
+      - "/opt/homebrew/bin/xlf"
+      - "/Users/barry/spack/bin/xlf"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/xlf"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/xlf"
+      - "/Users/barry/.rbenv/shims/xlf"
+      - "/opt/homebrew/sbin/xlf"
+      - "/usr/local/bin/xlf"
+      - "/System/Cryptexes/App/usr/bin/xlf"
+      - "/usr/bin/xlf"
+      - "/bin/xlf"
+      - "/usr/sbin/xlf"
+      - "/sbin/xlf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/xlf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/xlf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xlf"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/xlf"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/xlf"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/xlf"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xlf"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/fort"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/fort"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/fort"
+      - "/opt/homebrew/bin/fort"
+      - "/opt/homebrew/sbin/fort"
+      - "/opt/homebrew/fort"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/fort"
+      - "/opt/homebrew/bin/fort"
+      - "/Users/barry/spack/bin/fort"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/fort"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/fort"
+      - "/Users/barry/.rbenv/shims/fort"
+      - "/opt/homebrew/sbin/fort"
+      - "/usr/local/bin/fort"
+      - "/System/Cryptexes/App/usr/bin/fort"
+      - "/usr/bin/fort"
+      - "/bin/fort"
+      - "/usr/sbin/fort"
+      - "/sbin/fort"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/fort"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/fort"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/fort"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/fort"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/fort"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/fort"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/fort"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/flang"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/flang"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/flang"
+      - "/opt/homebrew/bin/flang"
+      - "/opt/homebrew/sbin/flang"
+      - "/opt/homebrew/flang"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/flang"
+      - "/opt/homebrew/bin/flang"
+      - "/Users/barry/spack/bin/flang"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/flang"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/flang"
+      - "/Users/barry/.rbenv/shims/flang"
+      - "/opt/homebrew/sbin/flang"
+      - "/usr/local/bin/flang"
+      - "/System/Cryptexes/App/usr/bin/flang"
+      - "/usr/bin/flang"
+      - "/bin/flang"
+      - "/usr/sbin/flang"
+      - "/sbin/flang"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/flang"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/flang"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/flang"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/flang"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/flang"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/flang"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/flang"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/lfortran"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/lfortran"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/lfortran"
+      - "/opt/homebrew/bin/lfortran"
+      - "/opt/homebrew/sbin/lfortran"
+      - "/opt/homebrew/lfortran"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/lfortran"
+      - "/opt/homebrew/bin/lfortran"
+      - "/Users/barry/spack/bin/lfortran"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/lfortran"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/lfortran"
+      - "/Users/barry/.rbenv/shims/lfortran"
+      - "/opt/homebrew/sbin/lfortran"
+      - "/usr/local/bin/lfortran"
+      - "/System/Cryptexes/App/usr/bin/lfortran"
+      - "/usr/bin/lfortran"
+      - "/bin/lfortran"
+      - "/usr/sbin/lfortran"
+      - "/sbin/lfortran"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/lfortran"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/lfortran"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/lfortran"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/lfortran"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/lfortran"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/lfortran"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/lfortran"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/frt"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/frt"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/frt"
+      - "/opt/homebrew/bin/frt"
+      - "/opt/homebrew/sbin/frt"
+      - "/opt/homebrew/frt"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/frt"
+      - "/opt/homebrew/bin/frt"
+      - "/Users/barry/spack/bin/frt"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/frt"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/frt"
+      - "/Users/barry/.rbenv/shims/frt"
+      - "/opt/homebrew/sbin/frt"
+      - "/usr/local/bin/frt"
+      - "/System/Cryptexes/App/usr/bin/frt"
+      - "/usr/bin/frt"
+      - "/bin/frt"
+      - "/usr/sbin/frt"
+      - "/sbin/frt"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/frt"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/frt"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/frt"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/frt"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/frt"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/frt"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/frt"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/nagfor"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/nagfor"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/nagfor"
+      - "/opt/homebrew/bin/nagfor"
+      - "/opt/homebrew/sbin/nagfor"
+      - "/opt/homebrew/nagfor"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/nagfor"
+      - "/opt/homebrew/bin/nagfor"
+      - "/Users/barry/spack/bin/nagfor"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/nagfor"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/nagfor"
+      - "/Users/barry/.rbenv/shims/nagfor"
+      - "/opt/homebrew/sbin/nagfor"
+      - "/usr/local/bin/nagfor"
+      - "/System/Cryptexes/App/usr/bin/nagfor"
+      - "/usr/bin/nagfor"
+      - "/bin/nagfor"
+      - "/usr/sbin/nagfor"
+      - "/sbin/nagfor"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/nagfor"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/nagfor"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/nagfor"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/nagfor"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/nagfor"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/nagfor"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/nagfor"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/gfortran"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/gfortran"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/gfortran"
+    found: "/opt/homebrew/bin/gfortran"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view"
+        - "/opt/homebrew"
+      ENV{PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/barry/spack/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/condabin"
+        - "/Users/barry/.rbenv/shims"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin"
+        - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:190 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeFortranCompilerId.F.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeFortranCompilerId.F.in"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view"
+        - "/opt/homebrew"
+      ENV{PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/barry/spack/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/condabin"
+        - "/Users/barry/.rbenv/shims"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin"
+        - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/install"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:190 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+      Compiler: /opt/homebrew/bin/gfortran 
+      Build flags: 
+      Id flags: -v 
+      
+      The output was:
+      0
+      Driving: /opt/homebrew/bin/gfortran -v CMakeFortranCompilerId.F -mmacosx-version-min=26.0.0 -asm_macosx_version_min=26.0 -nodefaultexport -l gfortran
+      Using built-in specs.
+      COLLECT_GCC=/opt/homebrew/bin/gfortran
+      COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/lto-wrapper
+      Target: aarch64-apple-darwin25
+      Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-15 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 15.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin25 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk
+      Thread model: posix
+      Supported LTO compression algorithms: zlib zstd
+      gcc version 15.2.0 (Homebrew GCC 15.2.0) 
+      COLLECT_GCC_OPTIONS='-v' '-mmacosx-version-min=26.0.0' '-asm_macosx_version_min=26.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'a-'
+       /opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/var/folders/jk/0_5tfprs7y97jvw03gf7wm0r0000gn/T//ccZY1pdG.fi -quiet -v -iprefix /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/ -D__DYNAMIC__ CMakeFortranCompilerId.F -fPIC -quiet -dumpdir a- -dumpbase CMakeFortranCompilerId.F -dumpbase-ext .F -mmacosx-version-min=26.0.0 -mcpu=apple-m1 -mlittle-endian -mabi=lp64 -version -fintrinsic-modules-path /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/finclude -o /var/folders/jk/0_5tfprs7y97jvw03gf7wm0r0000gn/T//cci765S5.s
+      GNU Fortran (Homebrew GCC 15.2.0) version 15.2.0 (aarch64-apple-darwin25)
+      	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+      
+      GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+      ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../aarch64-apple-darwin25/include"
+      ignoring duplicate directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include"
+      ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/local/include"
+      ignoring duplicate directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include-fixed"
+      ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../aarch64-apple-darwin25/include"
+      #include "..." search starts here:
+      #include <...> search starts here:
+       /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/finclude
+       /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include
+       /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include-fixed
+       /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include
+      End of search list.
+      COLLECT_GCC_OPTIONS='-v' '-mmacosx-version-min=26.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'a-'
+       as -arch arm64 -v -mmacosx-version-min=26.0 -o /var/folders/jk/0_5tfprs7y97jvw03gf7wm0r0000gn/T//ccnRGaC7.o /var/folders/jk/0_5tfprs7y97jvw03gf7wm0r0000gn/T//cci765S5.s
+      Apple clang version 17.0.0 (clang-1700.3.19.1)
+      Target: arm64-apple-darwin25.0.0
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+       "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple arm64-apple-macosx26.0.0 -target-sdk-version=26.0 -filetype obj -main-file-name cci765S5.s -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -fdebug-compilation-dir=/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/build/CMakeFiles/4.1.2/CompilerIdFortran -dwarf-debug-producer "Apple clang version 17.0.0 (clang-1700.3.19.1)" -dwarf-version=5 -mrelocation-model pic -o /var/folders/jk/0_5tfprs7y97jvw03gf7wm0r0000gn/T//ccnRGaC7.o /var/folders/jk/0_5tfprs7y97jvw03gf7wm0r0000gn/T//cci765S5.s
+      Reading specs from /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../libgfortran.spec
+      rename spec lib to liborig
+      COLLECT_GCC_OPTIONS='-v' '-mmacosx-version-min=26.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'a-'
+      COMPILER_PATH=/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/
+      LIBRARY_PATH=/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../
+      COLLECT_GCC_OPTIONS='-v' '-mmacosx-version-min=26.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'a.'
+       /opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/collect2 -demangle -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/ -dynamic -arch arm64 -macos_version_min 26.0.0 -o a.out -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15 -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../.. -lemutls_w -lheapt_w /var/folders/jk/0_5tfprs7y97jvw03gf7wm0r0000gn/T//ccnRGaC7.o -lgfortran -lgcc -lquadmath -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15 -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current
+      
+      
+      Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+      
+      The Fortran compiler identification is GNU, found in:
+        /Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/build/CMakeFiles/4.1.2/CompilerIdFortran/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:313 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/Users/barry/spack/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/"
+      - "/Users/barry/.rbenv/shims/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/opt/homebrew/bin/ar"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/ar"
+      - "/Users/barry/spack/bin/ar"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/ar"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/ar"
+      - "/Users/barry/.rbenv/shims/ar"
+      - "/opt/homebrew/sbin/ar"
+      - "/usr/local/bin/ar"
+      - "/System/Cryptexes/App/usr/bin/ar"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view"
+        - "/opt/homebrew"
+      ENV{PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/barry/spack/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/condabin"
+        - "/Users/barry/.rbenv/shims"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin"
+        - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:313 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/Users/barry/spack/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/"
+      - "/Users/barry/.rbenv/shims/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/opt/homebrew/bin/ranlib"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/ranlib"
+      - "/Users/barry/spack/bin/ranlib"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/ranlib"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/ranlib"
+      - "/Users/barry/.rbenv/shims/ranlib"
+      - "/opt/homebrew/sbin/ranlib"
+      - "/usr/local/bin/ranlib"
+      - "/System/Cryptexes/App/usr/bin/ranlib"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view"
+        - "/opt/homebrew"
+      ENV{PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/barry/spack/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/condabin"
+        - "/Users/barry/.rbenv/shims"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin"
+        - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:313 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/Users/barry/spack/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/"
+      - "/Users/barry/.rbenv/shims/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/opt/homebrew/bin/strip"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/strip"
+      - "/Users/barry/spack/bin/strip"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/strip"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/strip"
+      - "/Users/barry/.rbenv/shims/strip"
+      - "/opt/homebrew/sbin/strip"
+      - "/usr/local/bin/strip"
+      - "/System/Cryptexes/App/usr/bin/strip"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view"
+        - "/opt/homebrew"
+      ENV{PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/barry/spack/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/condabin"
+        - "/Users/barry/.rbenv/shims"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin"
+        - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:313 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/Users/barry/spack/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/"
+      - "/Users/barry/.rbenv/shims/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/opt/homebrew/bin/ld"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/ld"
+      - "/Users/barry/spack/bin/ld"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/ld"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/ld"
+      - "/Users/barry/.rbenv/shims/ld"
+      - "/opt/homebrew/sbin/ld"
+      - "/usr/local/bin/ld"
+      - "/System/Cryptexes/App/usr/bin/ld"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view"
+        - "/opt/homebrew"
+      ENV{PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/barry/spack/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/condabin"
+        - "/Users/barry/.rbenv/shims"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin"
+        - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:313 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/Users/barry/spack/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/"
+      - "/Users/barry/.rbenv/shims/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/opt/homebrew/bin/nm"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/nm"
+      - "/Users/barry/spack/bin/nm"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/nm"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/nm"
+      - "/Users/barry/.rbenv/shims/nm"
+      - "/opt/homebrew/sbin/nm"
+      - "/usr/local/bin/nm"
+      - "/System/Cryptexes/App/usr/bin/nm"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view"
+        - "/opt/homebrew"
+      ENV{PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/barry/spack/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/condabin"
+        - "/Users/barry/.rbenv/shims"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin"
+        - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:313 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/Users/barry/spack/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/"
+      - "/Users/barry/.rbenv/shims/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/opt/homebrew/bin/objdump"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/objdump"
+      - "/Users/barry/spack/bin/objdump"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/objdump"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/objdump"
+      - "/Users/barry/.rbenv/shims/objdump"
+      - "/opt/homebrew/sbin/objdump"
+      - "/usr/local/bin/objdump"
+      - "/System/Cryptexes/App/usr/bin/objdump"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view"
+        - "/opt/homebrew"
+      ENV{PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/barry/spack/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/condabin"
+        - "/Users/barry/.rbenv/shims"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin"
+        - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:313 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/Users/barry/spack/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/"
+      - "/Users/barry/.rbenv/shims/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/opt/homebrew/bin/objcopy"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/objcopy"
+      - "/Users/barry/spack/bin/objcopy"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/objcopy"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/objcopy"
+      - "/Users/barry/.rbenv/shims/objcopy"
+      - "/opt/homebrew/sbin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/System/Cryptexes/App/usr/bin/objcopy"
+      - "/usr/bin/objcopy"
+      - "/bin/objcopy"
+      - "/usr/sbin/objcopy"
+      - "/sbin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/objcopy"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/objcopy"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/objcopy"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/objcopy"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view"
+        - "/opt/homebrew"
+      ENV{PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/barry/spack/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/condabin"
+        - "/Users/barry/.rbenv/shims"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin"
+        - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:313 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/Users/barry/spack/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/"
+      - "/Users/barry/.rbenv/shims/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/opt/homebrew/bin/readelf"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/readelf"
+      - "/Users/barry/spack/bin/readelf"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/readelf"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/readelf"
+      - "/Users/barry/.rbenv/shims/readelf"
+      - "/opt/homebrew/sbin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/System/Cryptexes/App/usr/bin/readelf"
+      - "/usr/bin/readelf"
+      - "/bin/readelf"
+      - "/usr/sbin/readelf"
+      - "/sbin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/readelf"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/readelf"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/readelf"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/readelf"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view"
+        - "/opt/homebrew"
+      ENV{PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/barry/spack/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/condabin"
+        - "/Users/barry/.rbenv/shims"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin"
+        - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:313 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/Users/barry/spack/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/"
+      - "/Users/barry/.rbenv/shims/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/opt/homebrew/bin/dlltool"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/dlltool"
+      - "/Users/barry/spack/bin/dlltool"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/dlltool"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/dlltool"
+      - "/Users/barry/.rbenv/shims/dlltool"
+      - "/opt/homebrew/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/dlltool"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/dlltool"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/dlltool"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view"
+        - "/opt/homebrew"
+      ENV{PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/barry/spack/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/condabin"
+        - "/Users/barry/.rbenv/shims"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin"
+        - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:313 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/Users/barry/spack/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/"
+      - "/Users/barry/.rbenv/shims/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/opt/homebrew/bin/addr2line"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/addr2line"
+      - "/Users/barry/spack/bin/addr2line"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/addr2line"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/addr2line"
+      - "/Users/barry/.rbenv/shims/addr2line"
+      - "/opt/homebrew/sbin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/System/Cryptexes/App/usr/bin/addr2line"
+      - "/usr/bin/addr2line"
+      - "/bin/addr2line"
+      - "/usr/sbin/addr2line"
+      - "/sbin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/addr2line"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/addr2line"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/addr2line"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/addr2line"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view"
+        - "/opt/homebrew"
+      ENV{PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/barry/spack/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/condabin"
+        - "/Users/barry/.rbenv/shims"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin"
+        - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:313 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/Users/barry/spack/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/"
+      - "/Users/barry/.rbenv/shims/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/opt/homebrew/bin/tapi"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/tapi"
+      - "/Users/barry/spack/bin/tapi"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/tapi"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/tapi"
+      - "/Users/barry/.rbenv/shims/tapi"
+      - "/opt/homebrew/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/tapi"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/tapi"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/tapi"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view"
+        - "/opt/homebrew"
+      ENV{PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/barry/spack/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/condabin"
+        - "/Users/barry/.rbenv/shims"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin"
+        - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:314 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_Fortran_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/Users/barry/spack/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/"
+      - "/Users/barry/.rbenv/shims/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/opt/homebrew/bin/gcc-ar-15.2"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/gcc-ar-15.2"
+      - "/Users/barry/spack/bin/gcc-ar-15.2"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/gcc-ar-15.2"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/gcc-ar-15.2"
+      - "/Users/barry/.rbenv/shims/gcc-ar-15.2"
+      - "/opt/homebrew/sbin/gcc-ar-15.2"
+      - "/usr/local/bin/gcc-ar-15.2"
+      - "/System/Cryptexes/App/usr/bin/gcc-ar-15.2"
+      - "/usr/bin/gcc-ar-15.2"
+      - "/bin/gcc-ar-15.2"
+      - "/usr/sbin/gcc-ar-15.2"
+      - "/sbin/gcc-ar-15.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gcc-ar-15.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gcc-ar-15.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gcc-ar-15.2"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/gcc-ar-15.2"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/gcc-ar-15.2"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/gcc-ar-15.2"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-15.2"
+    found: "/opt/homebrew/bin/gcc-ar-15"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view"
+        - "/opt/homebrew"
+      ENV{PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/barry/spack/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/condabin"
+        - "/Users/barry/.rbenv/shims"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin"
+        - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:314 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_Fortran_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/Users/barry/spack/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/"
+      - "/Users/barry/.rbenv/shims/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/opt/homebrew/bin/gcc-ranlib-15.2"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/gcc-ranlib-15.2"
+      - "/Users/barry/spack/bin/gcc-ranlib-15.2"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/gcc-ranlib-15.2"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/gcc-ranlib-15.2"
+      - "/Users/barry/.rbenv/shims/gcc-ranlib-15.2"
+      - "/opt/homebrew/sbin/gcc-ranlib-15.2"
+      - "/usr/local/bin/gcc-ranlib-15.2"
+      - "/System/Cryptexes/App/usr/bin/gcc-ranlib-15.2"
+      - "/usr/bin/gcc-ranlib-15.2"
+      - "/bin/gcc-ranlib-15.2"
+      - "/usr/sbin/gcc-ranlib-15.2"
+      - "/sbin/gcc-ranlib-15.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gcc-ranlib-15.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gcc-ranlib-15.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gcc-ranlib-15.2"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/gcc-ranlib-15.2"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/gcc-ranlib-15.2"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/gcc-ranlib-15.2"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-15.2"
+    found: "/opt/homebrew/bin/gcc-ranlib-15"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view"
+        - "/opt/homebrew"
+      ENV{PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/barry/spack/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/condabin"
+        - "/Users/barry/.rbenv/shims"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin"
+        - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/install"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:76 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "install_name_tool"
+    candidate_directories:
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/opt/homebrew/"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/barry/spack/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/"
+      - "/Users/barry/.rbenv/shims/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/"
+      - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin/"
+      - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/install_name_tool"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/sbin/install_name_tool"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/install_name_tool"
+      - "/opt/homebrew/bin/install_name_tool"
+      - "/opt/homebrew/sbin/install_name_tool"
+      - "/opt/homebrew/install_name_tool"
+      - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin/install_name_tool"
+      - "/opt/homebrew/bin/install_name_tool"
+      - "/Users/barry/spack/bin/install_name_tool"
+      - "/opt/homebrew/Caskroom/miniforge/base/bin/install_name_tool"
+      - "/opt/homebrew/Caskroom/miniforge/base/condabin/install_name_tool"
+      - "/Users/barry/.rbenv/shims/install_name_tool"
+      - "/opt/homebrew/sbin/install_name_tool"
+      - "/usr/local/bin/install_name_tool"
+      - "/System/Cryptexes/App/usr/bin/install_name_tool"
+    found: "/usr/bin/install_name_tool"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view"
+        - "/opt/homebrew"
+      ENV{PATH}:
+        - "/Users/barry/spack/var/spack/environments/my-esmf-env/.spack-env/view/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/barry/spack/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/bin"
+        - "/opt/homebrew/Caskroom/miniforge/base/condabin"
+        - "/Users/barry/.rbenv/shims"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS"
+        - "/Applications/SshTectiaClient.app/Contents/MacOS/opt/tectia/bin"
+        - "/Users/barry/.vscode/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/barry/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/install"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting Fortran compiler ABI info"
+    directories:
+      source: "/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/build/CMakeFiles/CMakeScratch/TryCompile-trayuw"
+      binary: "/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/build/CMakeFiles/CMakeScratch/TryCompile-trayuw"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_Fortran_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/build/CMakeFiles/CMakeScratch/TryCompile-trayuw'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_41bf6/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_41bf6.dir/build.make CMakeFiles/cmTC_41bf6.dir/build
+        Building Fortran object CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o
+        /opt/homebrew/bin/gfortran   -v -Wl,-v -c /opt/homebrew/share/cmake/Modules/CMakeFortranCompilerABI.F90 -o CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/gfortran
+        Target: aarch64-apple-darwin25
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-15 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 15.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin25 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Homebrew GCC 15.2.0) 
+        COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o' '-mmacosx-version-min=26.0.0' '-asm_macosx_version_min=26.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_41bf6.dir/'
+         /opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/f951 /opt/homebrew/share/cmake/Modules/CMakeFortranCompilerABI.F90 -cpp=/var/folders/jk/0_5tfprs7y97jvw03gf7wm0r0000gn/T//ccRkOTBv.fii -quiet -v -iprefix /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/ -D__DYNAMIC__ /opt/homebrew/share/cmake/Modules/CMakeFortranCompilerABI.F90 -fPIC -quiet -dumpdir CMakeFiles/cmTC_41bf6.dir/ -dumpbase CMakeFortranCompilerABI.F90.F90 -dumpbase-ext .F90 -mmacosx-version-min=26.0.0 -mcpu=apple-m1 -mlittle-endian -mabi=lp64 -version -fintrinsic-modules-path /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/finclude -o /var/folders/jk/0_5tfprs7y97jvw03gf7wm0r0000gn/T//ccct6SNx.s
+        GNU Fortran (Homebrew GCC 15.2.0) version 15.2.0 (aarch64-apple-darwin25)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../aarch64-apple-darwin25/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/local/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include-fixed"
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../aarch64-apple-darwin25/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/finclude
+         /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include
+         /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include-fixed
+         /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include
+        End of search list.
+        COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o' '-mmacosx-version-min=26.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_41bf6.dir/'
+         as -arch arm64 -v -mmacosx-version-min=26.0 -o CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o /var/folders/jk/0_5tfprs7y97jvw03gf7wm0r0000gn/T//ccct6SNx.s
+        Apple clang version 17.0.0 (clang-1700.3.19.1)
+        Target: arm64-apple-darwin25.0.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple arm64-apple-macosx26.0.0 -target-sdk-version=26.0 -filetype obj -main-file-name ccct6SNx.s -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -fdebug-compilation-dir=/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/build/CMakeFiles/CMakeScratch/TryCompile-trayuw -dwarf-debug-producer "Apple clang version 17.0.0 (clang-1700.3.19.1)" -dwarf-version=5 -mrelocation-model pic -o CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o /var/folders/jk/0_5tfprs7y97jvw03gf7wm0r0000gn/T//ccct6SNx.s
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../
+        COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o' '-mmacosx-version-min=26.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.'
+        Linking Fortran executable cmTC_41bf6
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41bf6.dir/link.txt --verbose=1
+        Driving: /opt/homebrew/bin/gfortran -v -Wl,-v CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o -o cmTC_41bf6 -mmacosx-version-min=26.0.0 -asm_macosx_version_min=26.0 -nodefaultexport -l gfortran
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/gfortran
+        COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/lto-wrapper
+        Target: aarch64-apple-darwin25
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-15 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 15.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin25 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Homebrew GCC 15.2.0) 
+        Reading specs from /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../libgfortran.spec
+        rename spec lib to liborig
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41bf6' '-mmacosx-version-min=26.0.0' '-asm_macosx_version_min=26.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_41bf6-'
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41bf6' '-mmacosx-version-min=26.0.0' '-asm_macosx_version_min=26.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_41bf6.'
+         /opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/collect2 -demangle -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/ -dynamic -arch arm64 -macos_version_min 26.0.0 -o cmTC_41bf6 -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15 -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../.. -lemutls_w -lheapt_w -v CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o -lgfortran -lgcc -lquadmath -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15 -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current
+        collect2 version 15.2.0
+        /usr/bin/ld -demangle -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/ -dynamic -arch arm64 -macos_version_min 26.0.0 -o cmTC_41bf6 -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15 -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../.. -lemutls_w -lheapt_w -v CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o -lgfortran -lgcc -lquadmath -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15 -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current
+        @(#)PROGRAM:ld PROJECT:ld-1221.4
+        BUILD 16:29:08 Aug 11 2025
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+        Library search paths:
+        	/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15
+        	/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc
+        	/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks
+        /opt/homebrew/bin/gfortran  -v -Wl,-v CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o -o cmTC_41bf6
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed Fortran implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/finclude]
+          add: [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include]
+          add: [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include-fixed]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include]
+        end of search list found
+        collapse include dir [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/finclude] ==> [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15/finclude]
+        collapse include dir [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include] ==> [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15/include]
+        collapse include dir [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include-fixed] ==> [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15/include-fixed]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include]
+        implicit include dirs: [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15/finclude;/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15/include;/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15/include-fixed;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed Fortran implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/build/CMakeFiles/CMakeScratch/TryCompile-trayuw']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_41bf6/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_41bf6.dir/build.make CMakeFiles/cmTC_41bf6.dir/build]
+        ignore line: [Building Fortran object CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o]
+        ignore line: [/opt/homebrew/bin/gfortran   -v -Wl -v -c /opt/homebrew/share/cmake/Modules/CMakeFortranCompilerABI.F90 -o CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/homebrew/bin/gfortran]
+        ignore line: [Target: aarch64-apple-darwin25]
+        ignore line: [Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran --program-suffix=-15 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 15.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin25 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Homebrew GCC 15.2.0) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o' '-mmacosx-version-min=26.0.0' '-asm_macosx_version_min=26.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_41bf6.dir/']
+        ignore line: [ /opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/f951 /opt/homebrew/share/cmake/Modules/CMakeFortranCompilerABI.F90 -cpp=/var/folders/jk/0_5tfprs7y97jvw03gf7wm0r0000gn/T//ccRkOTBv.fii -quiet -v -iprefix /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/ -D__DYNAMIC__ /opt/homebrew/share/cmake/Modules/CMakeFortranCompilerABI.F90 -fPIC -quiet -dumpdir CMakeFiles/cmTC_41bf6.dir/ -dumpbase CMakeFortranCompilerABI.F90.F90 -dumpbase-ext .F90 -mmacosx-version-min=26.0.0 -mcpu=apple-m1 -mlittle-endian -mabi=lp64 -version -fintrinsic-modules-path /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/finclude -o /var/folders/jk/0_5tfprs7y97jvw03gf7wm0r0000gn/T//ccct6SNx.s]
+        ignore line: [GNU Fortran (Homebrew GCC 15.2.0) version 15.2.0 (aarch64-apple-darwin25)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../aarch64-apple-darwin25/include"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../aarch64-apple-darwin25/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/finclude]
+        ignore line: [ /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include]
+        ignore line: [ /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include-fixed]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o' '-mmacosx-version-min=26.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_41bf6.dir/']
+        ignore line: [ as -arch arm64 -v -mmacosx-version-min=26.0 -o CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o /var/folders/jk/0_5tfprs7y97jvw03gf7wm0r0000gn/T//ccct6SNx.s]
+        ignore line: [Apple clang version 17.0.0 (clang-1700.3.19.1)]
+        ignore line: [Target: arm64-apple-darwin25.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple arm64-apple-macosx26.0.0 -target-sdk-version=26.0 -filetype obj -main-file-name ccct6SNx.s -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -fdebug-compilation-dir=/Users/barry/Documents/ufsio/examples/SingleModelESMFIODemo/build/CMakeFiles/CMakeScratch/TryCompile-trayuw -dwarf-debug-producer "Apple clang version 17.0.0 (clang-1700.3.19.1)" -dwarf-version=5 -mrelocation-model pic -o CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o /var/folders/jk/0_5tfprs7y97jvw03gf7wm0r0000gn/T//ccct6SNx.s]
+        ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o' '-mmacosx-version-min=26.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.']
+        ignore line: [Linking Fortran executable cmTC_41bf6]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41bf6.dir/link.txt --verbose=1]
+        ignore line: [Driving: /opt/homebrew/bin/gfortran -v -Wl -v CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o -o cmTC_41bf6 -mmacosx-version-min=26.0.0 -asm_macosx_version_min=26.0 -nodefaultexport -l gfortran]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/homebrew/bin/gfortran]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/lto-wrapper]
+        ignore line: [Target: aarch64-apple-darwin25]
+        ignore line: [Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran --program-suffix=-15 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 15.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin25 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Homebrew GCC 15.2.0) ]
+        ignore line: [Reading specs from /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../libgfortran.spec]
+        ignore line: [rename spec lib to liborig]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41bf6' '-mmacosx-version-min=26.0.0' '-asm_macosx_version_min=26.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_41bf6-']
+        ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41bf6' '-mmacosx-version-min=26.0.0' '-asm_macosx_version_min=26.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_41bf6.']
+        link line: [ /opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/collect2 -demangle -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/ -dynamic -arch arm64 -macos_version_min 26.0.0 -o cmTC_41bf6 -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15 -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../.. -lemutls_w -lheapt_w -v CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o -lgfortran -lgcc -lquadmath -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15 -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current]
+          arg [/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/collect2] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/] ==> ignore
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-macos_version_min] ==> ignore
+          arg [26.0.0] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_41bf6] ==> ignore
+          arg [-L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15] ==> dir [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15]
+          arg [-L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc] ==> dir [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc]
+          arg [-L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../..] ==> dir [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../..]
+          arg [-lemutls_w] ==> lib [emutls_w]
+          arg [-lheapt_w] ==> lib [heapt_w]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o] ==> ignore
+          arg [-lgfortran] ==> lib [gfortran]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lquadmath] ==> lib [quadmath]
+          arg [-lSystem] ==> lib [System]
+          arg [-no_compact_unwind] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [@loader_path] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current] ==> ignore
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [/usr/bin/ld -demangle -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/ -dynamic -arch arm64 -macos_version_min 26.0.0 -o cmTC_41bf6 -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15 -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../.. -lemutls_w -lheapt_w -v CMakeFiles/cmTC_41bf6.dir/CMakeFortranCompilerABI.F90.o -lgfortran -lgcc -lquadmath -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15 -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current]
+        linker tool for 'Fortran': /usr/bin/ld
+        Library search paths: [;/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15;/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc;/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+        remove lib [System]
+        collapse library dir [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15] ==> [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15]
+        collapse library dir [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc] ==> [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc]
+        collapse library dir [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../..] ==> [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current]
+        collapse library dir [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15] ==> [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15]
+        collapse library dir [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc] ==> [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc]
+        collapse library dir [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current] ==> [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+        implicit libs: [emutls_w;heapt_w;gfortran;gcc;quadmath]
+        implicit objs: []
+        implicit dirs: [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15;/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc;/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Running the Fortran compiler's linker: "/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1221.4
+      BUILD 16:29:08 Aug 11 2025
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+...

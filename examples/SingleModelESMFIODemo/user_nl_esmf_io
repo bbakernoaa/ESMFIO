@@ -1,0 +1,63 @@
+!> Configuration file for ESMF_IO component
+!!
+!! This configuration demonstrates both input (ExtData equivalent) and 
+!! output (History equivalent) functionality in a single file.
+
+! Global settings
+::IO_Settings
+  DEBUG_LEVEL: 2
+  IO_MODE: PARALLEL
+::END
+
+! Input stream configuration (ExtData equivalent)
+::InputStream: METEOROLOGY_DATA
+  NAME: meteorology
+  DATAFILE: ./sample_data/meteorology_data_%y4%m2%d2.nc
+  FILETYPE: netcdf
+  MODE: read
+  START_TIME: 2020-01-01_00:00
+  END_TIME: 2020-01-02_00:00
+  TIME_FREQUENCY: PT1H
+  TIME_OFFSET: PT0H
+  CALENDAR: GREGORIAN
+  CLIMATOLOGY: false
+  REGRID_METHOD: 1
+  FIELD_COUNT: 3
+  FIELD_1_NAME: air_temperature
+  FIELD_1_UNITS: K
+  FIELD_1_LONGNAME: Air Temperature
+  FIELD_1_LEVELS: 1
+  FIELD_1_TIME_AVG: false
+  FIELD_2_NAME: eastward_wind
+  FIELD_2_UNITS: m/s
+  FIELD_2_LONGNAME: Eastward Wind
+  FIELD_2_LEVELS: 1
+  FIELD_2_TIME_AVG: false
+  FIELD_3_NAME: northward_wind
+  FIELD_3_UNITS: m/s
+  FIELD_3_LONGNAME: Northward Wind
+  FIELD_3_LEVELS: 1
+  FIELD_3_TIME_AVG: false
+::END
+
+! Output collection configuration (History equivalent)
+::OutputCollection: HOURLY_OUTPUT
+  NAME: hourly_data
+  FILENAME_BASE: hourly_output
+  FILETYPE: netcdf
+  OUTPUT_FREQUENCY: PT1H
+  TIME_AXIS_OFFSET: PT0H
+  APPEND_PACKED_FILES: false
+  DO_AVG: false
+  DO_MAX: false
+  DO_MIN: false
+  FIELD_COUNT: 2
+  FIELD_1_NAME: pmsl
+  FIELD_1_UNITS: Pa
+  FIELD_1_LONGNAME: Air Pressure at Sea Level
+  FIELD_1_LEVELS: 1
+  FIELD_2_NAME: rsns
+  FIELD_2_UNITS: W/m2
+  FIELD_2_LONGNAME: Surface Net Downward Shortwave Flux
+  FIELD_2_LEVELS: 1
+::END

@@ -1,0 +1,153 @@
+# Test Configuration for ESMF_IO Unified Component
+
+test_suite:
+  name: "ESMF_IO Comprehensive Test Suite"
+  description: "Complete test suite for ESMF_IO unified component"
+  
+global_settings:
+  enable_parallel_tests: true
+  enable_performance_tests: true
+  enable_memory_check: false
+  timeout_seconds: 300
+
+test_modules:
+  - name: "ESMF_IO_Component_Mod"
+    tests:
+      - "test_component_initialize"
+      - "test_component_run"
+      - "test_component_finalize"
+      - "test_component_error_handling"
+    enabled: true
+    parallel: true
+    
+  - name: "ESMF_IO_Config_Mod"
+    tests:
+      - "test_config_initialize"
+      - "test_config_parse"
+      - "test_config_access"
+      - "test_config_validation"
+      - "test_config_error_handling"
+    enabled: true
+    parallel: false
+    
+  - name: "ESMF_IO_Input_Mod"
+    tests:
+      - "test_input_initialize"
+      - "test_input_run"
+      - "test_input_finalize"
+      - "test_temporal_interpolation"
+      - "test_regridding"
+      - "test_climatology_handling"
+    enabled: true
+    parallel: true
+    
+  - name: "ESMF_IO_Output_Mod"
+    tests:
+      - "test_output_initialize"
+      - "test_output_run"
+      - "test_output_finalize"
+      - "test_time_averaging"
+      - "test_parallel_writing"
+    enabled: true
+    parallel: true
+    
+  - name: "ESMF_IO_Parallel_Mod"
+    tests:
+      - "test_parallel_read"
+      - "test_parallel_write"
+      - "test_hyperslab_operations"
+      - "test_mpi_communication"
+    enabled: true
+    parallel: true
+
+integration_tests:
+  - name: "full_component_lifecycle"
+    description: "Test complete lifecycle of ESMF_IO component"
+    requires: ["ESMF_IO_Component_Mod", "ESMF_IO_Config_Mod", "ESMF_IO_Input_Mod", "ESMF_IO_Output_Mod"]
+    enabled: true
+    parallel: true
+    
+  - name: "module_interactions"
+    description: "Test interactions between all modules"
+    requires: ["ESMF_IO_Component_Mod", "ESMF_IO_Config_Mod", "ESMF_IO_Input_Mod", "ESMF_IO_Output_Mod"]
+    enabled: true
+    parallel: true
+    
+  - name: "clock_integration"
+    description: "Test clock integration and time management"
+    requires: ["ESMF_IO_Component_Mod", "ESMF_IO_Input_Mod", "ESMF_IO_Output_Mod"]
+    enabled: true
+    parallel: true
+    
+  - name: "configuration_driven_behavior"
+    description: "Test configuration-driven behavior"
+    requires: ["ESMF_IO_Component_Mod", "ESMF_IO_Config_Mod"]
+    enabled: true
+    parallel: false
+
+performance_tests:
+  - name: "parallel_io_performance"
+    description: "Test parallel I/O performance"
+    enabled: true
+    parallel: true
+    iterations: 10
+    
+  - name: "memory_usage_scalability"
+    description: "Test memory usage and scalability"
+    enabled: true
+    parallel: true
+    grid_sizes: [100, 500, 1000]
+    
+  - name: "regridding_performance"
+    description: "Test regridding performance"
+    enabled: true
+    parallel: true
+    methods: [1, 2, 3]
+    
+  - name: "temporal_interpolation_efficiency"
+    description: "Test temporal interpolation efficiency"
+    enabled: true
+    parallel: true
+    iterations: 100
+
+error_handling_tests:
+  - name: "robust_error_propagation"
+    description: "Test robust error propagation"
+    enabled: true
+    parallel: false
+    
+  - name: "graceful_failure_modes"
+    description: "Test graceful failure modes"
+    enabled: true
+    parallel: false
+    
+  - name: "logging_and_error_reporting"
+    description: "Test logging and error reporting"
+    enabled: true
+    parallel: false
+    
+  - name: "recovery_mechanisms"
+    description: "Test recovery mechanisms"
+    enabled: true
+    parallel: false
+
+configuration_validation_tests:
+  - name: "valid_config_formats"
+    description: "Test valid configuration formats"
+    enabled: true
+    parallel: false
+    
+  - name: "invalid_config_error_handling"
+    description: "Test invalid configuration error handling"
+    enabled: true
+    parallel: false
+    
+  - name: "config_edge_cases"
+    description: "Test configuration edge cases"
+    enabled: true
+    parallel: false
+    
+  - name: "parameter_validation"
+    description: "Test parameter validation"
+    enabled: true
+    parallel: false

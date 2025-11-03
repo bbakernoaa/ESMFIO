@@ -1,0 +1,11 @@
+# Run sequence for ESMF_IO single model example
+#
+# This file defines the execution sequence for the single model example
+
+# Set up the execution environment
+set ESMF_IO_CONFIG_FILE=user_nl_esmf_io
+
+# Execute the single model driver
+./esmf_io_single_model_demo
+
+# End of run sequence
